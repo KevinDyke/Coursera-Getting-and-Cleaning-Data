@@ -49,10 +49,10 @@ names(merged_y) <- "activity"
 # Step 4 Appropriately labels the data set with descriptive variable names.
 
 # change the columns with names including "-mean" to "_Mean_"
-names(merged_x) <- gsub('-mean', '_Mean_', names(merged_x))
+names(merged_x) <- gsub('-mean', 'Mean', names(merged_x))
 
 # change the columns with names including "-std" to "_Std_"
-names(merged_x) <- gsub('-std', '_Std_', names(merged_x))
+names(merged_x) <- gsub('-std', 'Std', names(merged_x))
 
 # remove the brackets from any columns names
 names(merged_x) <- gsub('[()-]', '', names(merged_x))
