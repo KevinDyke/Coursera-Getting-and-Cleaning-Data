@@ -16,21 +16,22 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## Data Sets
 
-The following files were downloaded as part of the course data files. These present the raw data files.
+The following files were downloaded as part of the course data files. These represent the raw data files.
 
 - `x_train.txt`, `y_train.txt`, `x_test.txt`, `y_test.txt`, `subject_train.txt` and `subject_test.txt`
-- `features.txt` contains the column names for the `x_` datasets. These were filter to leave only the mean and std column names. 
+- `features.txt` contains the column names for the `x_` datasets. 
 -  'activity.txt' contains the values for each of the activities.
-- The x_ datasets were merged together to form the dataset merged_x
-- The y_ datasets were merged together to form the dataset merged_y
-- The subject_ datasets were merged together to form the dataset merged_subject
+
 
 
 The following are the tidy datasets:
 
+- The x_ datasets were merged together to form the dataset merged_x
+- The y_ datasets were merged together to form the dataset merged_y
+- The subject_ datasets were merged together to form the dataset merged_subject
 - All the merged dataset were merged together to form a single dataset called 'completed_data'. 
 - The fields in the completed_data were transform to contain the mean for each activity and subject. The result is stored in a dataset called averages. 
-- The averages dataset is written as text file called average_tidy_data.txt
+- The averages dataset was written as text file called average_tidy_data.txt
 
 
 ##Identifiers
@@ -49,7 +50,7 @@ The following variables are used to identity the subject and activity
 
 ##Measurements
 
-Each variable is the mean of a measurement for a subject and activity. Each measurement is a floating point numbers.
+Each variable is the mean of a measurement for a subject and activity. Each measurement is a floating point number.
 
 - tBodyAcc_Mean_X
 - tBodyAcc_Mean_Y
